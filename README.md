@@ -20,7 +20,7 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
 
 ## 학생 등록
 
-- **POST** /students\`  
+- **POST** /students
 - **설명:** 새로운 학생을 등록합니다.  
 - **요청 바디**
 ```json
@@ -35,7 +35,7 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
 - **GET** /students?studentNo={studentNo}
 - 학번(studentNo)으로 학생 정보를 조회합니다.  
 - **요청 파라미터:**  
-  - \`studentNo\` (int, 필수)
+  - studentNo (int, 필수)
 
 **응답 예시**
 ```json
